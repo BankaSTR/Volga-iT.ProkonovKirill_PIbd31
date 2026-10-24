@@ -1,5 +1,7 @@
 # Volga IT. Автоматизация тестирования (Python)
 
+[![UI tests](https://github.com/BankaSTR/Volga-iT.ProkonovKirill_PIbd31/actions/workflows/ui-tests.yml/badge.svg)](https://github.com/BankaSTR/Volga-iT.ProkonovKirill_PIbd31/actions/workflows/ui-tests.yml)
+
 Проект полуфинала по заданию SimbirSoft. Python 3.12+, Selenium 4, Pytest,
 Page Object Model, Allure. Автор: Проконов Кирилл, ПИбд-31.
 
