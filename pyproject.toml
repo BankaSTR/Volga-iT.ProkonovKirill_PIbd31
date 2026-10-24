@@ -1,0 +1,26 @@
+[project]
+name = "volga-it-ui-tests"
+version = "1.0.0"
+description = "Volga IT: Selenium UI tests for Practice Automation"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers --strict-config --alluredir=allure-results"
+markers = [
+  "calendars: calendar widget and date submission",
+  "modals: simple and form dialogs",
+  "ads: delayed advertisement dialog",
+  "form_fields: Automation Tools requirement",
+  "positive: supported user actions",
+  "negative: invalid input or forbidden actions",
+  "smoke: critical user paths",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
