@@ -1,4 +1,4 @@
-# Volga IT — Автоматизация тестирования (Python)
+# Volga IT. Автоматизация тестирования (Python)
 
 Проект полуфинала по заданию SimbirSoft. Python 3.12+, Selenium 4, Pytest,
 Page Object Model, Allure. Автор: Проконов Кирилл, ПИбд-31.
@@ -218,8 +218,4 @@ tools через Selenium, читает `.text`, сохраняет порядо
 параметр отдельно. Статус проверки реальным запуском и сведения об окружении
 приведены в [docs/validation.md](docs/validation.md).
 
-## Сдача
-
-Ссылка для личного кабинета:
-[BankaSTR/Volga-iT.ProkonovKirill_PIbd31](https://github.com/BankaSTR/Volga-iT.ProkonovKirill_PIbd31).
 Результаты запусков доступны во вкладке Actions после выполнения workflow.
